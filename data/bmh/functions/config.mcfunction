@@ -1,0 +1,1 @@
+function bmh:menu/config/main

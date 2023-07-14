@@ -1,0 +1,4 @@
+tellraw @s [{"text": "\n\n\n\n\n\n\n\n   - ","color": "gold","bold": true},{"text": " Select Hunters ","color": "yellow","bold": true},{"text": " -   ","color": "gold","bold": true}]
+
+tellraw @s [{"text": "\n\n>   ","color": "gray"},{"text": "[","color": "dark_green"},{"text": " Add Hunter ","color": "green","hoverEvent": {"action": "show_text","value": {"text": "Click here and then type in the name!"}},"clickEvent": {"action": "suggest_command","value": "/team join Hunter "}},{"text": "]","color": "dark_green"}]
+tellraw @s [{"text": "\n>   ","color": "gray"},{"text": "[","color": "dark_red"},{"text": " Remove Hunter ","color": "red","hoverEvent": {"action": "show_text","value": {"text": "Click here and then type in the name!"}},"clickEvent": {"action": "suggest_command","value": "/team leave "}},{"text": "]\n","color": "dark_red"}]

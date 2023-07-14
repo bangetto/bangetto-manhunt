@@ -1,0 +1,6 @@
+tellraw @s [{"text": "\n\n\n\n\n\n\n\n   -  ","color": "gold","bold": true},{"text": "Select Runners","color": "yellow","bold": true},{"text": "  -\n","color": "gold","bold": true}]
+
+tellraw @s [{"text": "\n\n>   ","color": "gray"},{"text": "[","color": "dark_green"},{"text": " Add Runner ","color": "green","hoverEvent": {"action": "show_text","value": {"text": "Click here and then type in the name!"}},"clickEvent": {"action": "suggest_command","value": "/team join Runner "}},{"text": "]\n","color": "dark_green"}]
+tellraw @s [{"text": "\n>   ","color": "gray"},{"text": "[","color": "dark_red"},{"text": " Remove Runner ","color": "red","hoverEvent": {"action": "show_text","value": {"text": "Click here and then type in the name!"}},"clickEvent": {"action": "suggest_command","value": "/team leave "}},{"text": "]\n","color": "dark_red"}]
+
+tellraw @s [{"text": "\n>   ","color": "gray"},{"text": "  [ ","bold": true,"color": "gold"},{"translate":"gui.back","fallback": "Back","color": "yellow","clickEvent": { "action": "run_command","value": "/function compass:start"}},{"text": " ]\n","color": "gold"}]
