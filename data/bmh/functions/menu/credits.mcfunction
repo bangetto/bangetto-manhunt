@@ -3,4 +3,4 @@ tellraw @s [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 
 tellraw @s [{"text":"- ","color":"dark_gray"},{"translate":"bmh.credit.bangetto","fallback":"Idea & Original creator:","color":"gray"},{"text":" bangetto \n","color":"white"}]
 
-tellraw @s [{"text":"- ","color":"dark_gray"},{"translate":"bmh.credit.compass","fallback":"Creator of the Compass Tracking System:","color":"gray"},{"text":" i have to look this up \n","color":"white"}]
+tellraw @s [{"text":"- ","color":"dark_gray"},{"translate":"bmh.credit.compass","fallback":"Creator of the Compass Tracking System:","color":"gray"},{"text":" Stonley890 \n","color":"white"}]
